@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical July</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            orange: '#fb8500',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <h2 class="text-3xl font-bold text-clifford items-center justify-items-center">Week 2 Task 1 July</h2>
+    <form>
+    <select id="colorSelect">
+    <option>Red</option>
+    <option>Green</option>
+    <option>White</option>
+    <option>Black</option>
+    </select>
+    <input type="button" onclick="removecolor()" value="Select and Remove">
+    </form>
+    <br>
+    <input type="text" id="text-input" placeholder="Enter input">
+
+    <script src="./script.js"></script>
+</body>
+</html>
